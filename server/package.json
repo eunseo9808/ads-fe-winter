@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -p . && node src/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "typescript": "^5.3.2"
+  }
+}
